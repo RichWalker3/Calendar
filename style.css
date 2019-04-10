@@ -1,0 +1,53 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+  grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+}
+
+.lgContainer {
+  position: relative;
+  left: 25%;
+  display: grid;
+  grid-template-columns: 60px 300px 300px;
+  grid-template-rows: 40% 40% 40%;
+
+}
+
+.button {
+  color: white;
+  background-color: lightgray;
+  position: relative;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%
+}
+
+.wholeCal {
+  border: 1px solid lightgrey;
+  padding-bottom: 80%;
+  border-radius: 2%;
+  padding-top: 8%;
+  padding-left: 5%
+}
+
+#next {
+  margin-left: 20px
+}
+
+.hr {
+  width: 95%;
+  margin-right: 25%;
+  margin-top: 2%
+
+}
+
+.weekend {
+  color: red
+}
+
+#title {
+  position: relative;
+  left: 38%;
+}

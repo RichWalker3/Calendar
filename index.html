@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Richard Walker Calendar Takehome</title>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+
+<body>
+  <p id="title"></p>
+  <div class="lgContainer">
+    <button onclick="changeCal(-1, 'prev')" class="button" id="prev">&lt&lt</button>
+    <div class="wholeCal">
+      <div class="container">
+        <span class="item item-1 weekend "><strong>S</strong></span>
+        <span class="item item-2"><strong>M</strong></span>
+        <span class="item item-3"><strong>T</strong></span>
+        <span class="item item-4"><strong>W</strong></span>
+        <span class="item item-5"><strong>T</strong></span>
+        <span class="item item-6"><strong>F</strong></span>
+        <span class="item item-7 weekend"><strong>S</strong></span>
+      </div>
+      <hr class="hr"/>
+      <div class="container" id=cal></div>
+    </div>
+    <button onclick="changeCal(1, 'next')" class="button" id="next">&gt&gt</button>
+  </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
